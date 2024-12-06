@@ -23,11 +23,3 @@ class Poker:
     # 是否有牌可发
     def has_next(self):
         return self.current < len(self.cards)
-
-
-pocker1 = Poker()
-print(pocker1.cards)
-print(len(pocker1.cards))
-print(pocker1.current)
-pocker1.shuffle()
-print(pocker1.cards)

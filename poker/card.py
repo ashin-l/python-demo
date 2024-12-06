@@ -15,10 +15,3 @@ class Card:
         if self.suite == other.suite:
             return self.points < other.points   # 花色相同比较点数的大小
         return self.suite.value < other.suite.value   # 花色不同比较花色对应的值
-
-
-# card1 = Card(Suite.HEART, 9)
-# card2 = Card(Suite.DIAMOND, 13)
-
-# print(card1)
-# print(card2)
